@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>In-memory report store and suite repository for HoneyDrunk.Evals — the first-wave provider-slot backend per ADR-0023 D2/D13. Zero-network, deterministic, for tests, local development, and seed evaluation runs.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HoneyDrunk.Evals.Abstractions\HoneyDrunk.Evals.Abstractions.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="HoneyDrunk.Standards" Version="0.2.9" PrivateAssets="all" />
+  </ItemGroup>
+</Project>

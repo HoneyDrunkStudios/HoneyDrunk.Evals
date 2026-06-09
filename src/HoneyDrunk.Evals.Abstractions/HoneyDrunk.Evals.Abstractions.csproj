@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Dependency-light contracts for the HoneyDrunk.Evals evaluation and quality substrate — evaluator, scorer, suite, target, case, and report surfaces per ADR-0023.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="HoneyDrunk.Standards" Version="0.2.9" PrivateAssets="all" />
+    <PackageReference Include="HoneyDrunk.Kernel.Abstractions" Version="0.8.0" />
+    <PackageReference Include="HoneyDrunk.AI.Abstractions" Version="0.2.0" />
+  </ItemGroup>
+</Project>

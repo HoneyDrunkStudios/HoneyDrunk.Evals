@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/HoneyDrunk.Evals.Abstractions/HoneyDrunk.Evals.Abstractions.csproj" />
+    <Project Path="src/HoneyDrunk.Evals/HoneyDrunk.Evals.csproj" />
+    <Project Path="src/HoneyDrunk.Evals.Providers.InMemory/HoneyDrunk.Evals.Providers.InMemory.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/HoneyDrunk.Evals.Abstractions.Tests/HoneyDrunk.Evals.Abstractions.Tests.csproj" />
+    <Project Path="tests/HoneyDrunk.Evals.Tests/HoneyDrunk.Evals.Tests.csproj" />
+    <Project Path="tests/HoneyDrunk.Evals.Providers.InMemory.Tests/HoneyDrunk.Evals.Providers.InMemory.Tests.csproj" />
+  </Folder>
+</Solution>

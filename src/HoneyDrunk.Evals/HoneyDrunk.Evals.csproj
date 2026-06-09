@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Runtime composition for HoneyDrunk.Evals — default evaluator, chat target with router-bypass pinning, automated and model-as-judge scorers, observation-only Operator observers, telemetry, and DI wiring per ADR-0023.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HoneyDrunk.Evals.Abstractions\HoneyDrunk.Evals.Abstractions.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="HoneyDrunk.Standards" Version="0.2.9" PrivateAssets="all" />
+    <PackageReference Include="HoneyDrunk.Kernel.Abstractions" Version="0.8.0" />
+    <PackageReference Include="HoneyDrunk.AI.Abstractions" Version="0.2.0" />
+    <PackageReference Include="HoneyDrunk.Operator.Abstractions" Version="0.1.0" />
+    <PackageReference Include="HoneyDrunk.Audit.Abstractions" Version="0.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.8" />
+  </ItemGroup>
+</Project>

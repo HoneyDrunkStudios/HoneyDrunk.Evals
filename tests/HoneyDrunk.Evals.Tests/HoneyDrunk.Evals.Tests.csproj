@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><IsPackable>false</IsPackable></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\HoneyDrunk.Evals\HoneyDrunk.Evals.csproj" />
+    <ProjectReference Include="..\..\src\HoneyDrunk.Evals.Abstractions\HoneyDrunk.Evals.Abstractions.csproj" />
+    <ProjectReference Include="..\..\src\HoneyDrunk.Evals.Providers.InMemory\HoneyDrunk.Evals.Providers.InMemory.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="HoneyDrunk.Standards" Version="0.2.9" PrivateAssets="all" />
+    <PackageReference Include="HoneyDrunk.Standards.Tests" Version="0.2.9" PrivateAssets="all" />
+    <PackageReference Include="NSubstitute" Version="5.1.0" />
+  </ItemGroup>
+</Project>
