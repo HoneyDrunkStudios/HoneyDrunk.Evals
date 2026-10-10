@@ -8,6 +8,8 @@ Work within the selected request. Preserve unrelated changes and use a separate 
 
 For current documentation changes, validate Markdown links, tracked paths and `git diff --check`. Report the absence of executable validation explicitly; do not describe an unrun suite as passing.
 
+The owner approved a scaffold-only Sonar applicability exception on October 10, 2026: this source-free repository is excluded from organization ruleset 16846333. Before the first authored analyzable implementation PR, onboard real Sonar analysis, re-add Evals to that required-check ruleset and verify the actual final-head result. Native review and every other applicable check remain required; this exception is not permission to merge implementation without analysis.
+
 ## Code Review Rules
 
 Apply the [shared review criteria](https://github.com/HoneyDrunkStudios/HoneyDrunk.Standards/blob/main/HoneyDrunk.Standards/docs/CONVENTIONS.md#code-review) to changed behavior, using the repository boundaries above. Report actionable findings with the failing path, concrete impact and a small corrective action; disclose unavailable evidence. These rules grant no cross-repository access or merge authority.
